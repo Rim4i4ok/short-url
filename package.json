@@ -1,0 +1,29 @@
+{
+	"name": "short-url",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js",
+		"server": "nodemon app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Rim4i4ok/short-url.git"
+	},
+	"keywords": [],
+	"author": "Rim4i4ok",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Rim4i4ok/short-url/issues"
+	},
+	"homepage": "https://github.com/Rim4i4ok/short-url#readme",
+	"dependencies": {
+		"express": "^4.17.1",
+		"mongoose": "^5.8.4"
+	},
+	"devDependencies": {
+		"concurrently": "^5.0.2",
+		"nodemon": "^2.0.2"
+	}
+}
