@@ -27,17 +27,17 @@ export const useHttp = () => {
 				setLoading(false);
 
 				return data;
-			} catch (error) {
+			} catch (e) {
 				setLoading(false);
-				setError(error.message);
+				setError(e.message);
 
-				throw error;
+				throw e;
 			}
 		},
 		[]
 	);
 
-	const clearError = () => setError(null);
+	const clearError = useCallback(() => setError(null), []);
 
 	return { loading, request, error, clearError };
 };
