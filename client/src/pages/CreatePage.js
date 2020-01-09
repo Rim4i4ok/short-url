@@ -35,7 +35,7 @@ export const CreatePage = () => {
 
 	return (
 		<div>
-			<div classNam="col s8 offset-s2" style={{ paddingTop: "2rem" }}></div>
+			<div className="col s8 offset-s2" style={{ paddingTop: "2rem" }}></div>
 			<div className="input-field">
 				<input
 					placeholder="Enter url"

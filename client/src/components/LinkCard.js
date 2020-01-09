@@ -17,7 +17,7 @@ export const LinkCard = ({ link }) => {
 				</a>
 			</p>
 			<p>
-				Clicks: <strong>{link.clics}</strong>
+				Clicks: <strong>{link.clicks}</strong>
 			</p>
 			<p>
 				Creation date:{" "}
